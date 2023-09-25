@@ -3,16 +3,16 @@
 # URL of my app on Render
 https://project-tripleten.onrender.com/
 
-#Running a file locally
+# Running a file locally
 Use git to clone project’s git repository to your local machine
 call command in terminal: 'streamlit run puth\app.py'
 
-#Loaded Libraries
+# Loaded Libraries
 - streamlit,
 - pandas,
 - plotly.express
 
-#Exploratory Data Analysis
+# Exploratory Data Analysis
 The directory 'notebooks' contains a file 'EDA.ipynb' with exploratory data analysis:
 - dataset information
 - checking for empty data
