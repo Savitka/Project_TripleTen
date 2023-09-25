@@ -10,7 +10,8 @@ import plotly.express as px
 
 #df=pd.read_csv('/Users/savit/Documents/GitHub/Project_TripleTen/vehicles_us.csv')
 df=pd.read_csv('vehicles_us.csv')
-st.header('Car popularity analysis', divider='rainbow')
+#st.header('Car popularity analysis', divider='rainbow')
+st.header('Car popularity analysis')
 
 show_table = st.checkbox('Show data table slice')
 if show_table :
