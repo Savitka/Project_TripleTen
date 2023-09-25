@@ -4,8 +4,7 @@
 https://project-tripleten.onrender.com/
 
 # Running a file locally
-Use git to clone project’s git repository to your local machine
-call command in terminal: 'streamlit run puth\app.py'
+Use git to clone project’s git repository to your local machine -> call command in terminal: 'streamlit run puth\app.py'
 
 # Loaded Libraries
 - streamlit,
