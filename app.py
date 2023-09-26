@@ -8,9 +8,10 @@ import streamlit as st
 import pandas as pd 
 import plotly.express as px
 
-df=pd.read_csv('C:/Users/katya.savitskaya/Documents/GitHub/Project_TripleTen/vehicles_us.csv')
+#df=pd.read_csv('C:/Users/katya.savitskaya/Documents/GitHub/Project_TripleTen/vehicles_us.csv')
+df=pd.read_csv('vehicles_us.csv')
 
-## looping over column names and replacing missing values with 'unknown' and 0
+## looping over column names and replacing missing values with 0 and 'unknown'
 columns_to_replace =['model_year', 'cylinders', 'odometer', 'is_4wd']
 for column in columns_to_replace:
     df[column] = df[column].fillna(0)
