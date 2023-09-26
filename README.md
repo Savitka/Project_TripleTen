@@ -1,4 +1,5 @@
 # Project_TripleTen
+This project is for additional practice on general software development tasks. He also perfects his work with data analysis and charts.
 
 # URL of my app on Render
 https://project-tripleten.onrender.com/
