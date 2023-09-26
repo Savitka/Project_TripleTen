@@ -10,10 +10,12 @@ import plotly.express as px
 
 df=pd.read_csv('C:/Users/katya.savitskaya/Documents/GitHub/Project_TripleTen/vehicles_us.csv')
 
-## looping over column names and replacing missing values with 'unknown'
-columns_to_replace =['model_year', 'cylinders', 'odometer', 'paint_color','is_4wd']
+## looping over column names and replacing missing values with 'unknown' and 0
+columns_to_replace =['model_year', 'cylinders', 'odometer', 'is_4wd']
 for column in columns_to_replace:
-    df[column] = df[column].fillna('unknown') 
+    df[column] = df[column].fillna(0)
+df['paint_color'] = df['paint_color'].fillna('unknown') 
+
     
 #df=pd.read_csv('vehicles_us.csv')
 #st.header('Car popularity analysis', divider='rainbow')
